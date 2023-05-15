@@ -1,0 +1,166 @@
+/* Common website font colors */
+:root {
+    --light-purple: #b19cd9;
+    --dark-purple: #4b0082;
+    --light-green: #7cc576;
+    --dark-green: #007f3f;
+    --light-blue: #77acf1;
+    --dark-blue: #1e6bb8;
+    --light-orange: #f9b77b;
+    --dark-orange: #c45908;
+    --light-yellow: #f7f056;
+    --dark-yellow: #b8a206;
+    --light-pink: #f292a3;
+    --dark-pink: #b83159;
+}
+
+/* TYPOGRAPHIES */
+
+/* font-family: 'Montserrat', sans-serif; */
+
+/* font-family: 'Roboto Mono', monospace; */
+
+/* END OF TYPOGRAPHIES */
+p{
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+}
+
+h2{
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+/* BACKGROUND COLORS */
+.main-content{
+    background-color: #1f2223;
+}
+
+/* START MAIN */
+  .parallax {
+    background-image: url('../img/banner.webp');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+  }
+  .parallax-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+  }
+  .parallax-content h1 {
+    font-size: 4rem;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 1rem;
+  }
+  .parallax-content p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    font-family: 'Roboto Mono', monospace;
+  }
+  .parallax-inner {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+  }
+
+/* ABOUT MYSELF SECTION */
+.about-myself{
+    padding: 2rem;
+}
+
+.about-myself h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.about-myself p{
+    font-family: 'Roboto Mono', monospace;
+}
+
+/* EXPLORE PARAGRAPH */
+.explore{
+    text-align: center;
+}
+
+
+/* PORTFOLIO SECTION */
+.portfolio{
+    margin: 2rem 2rem 0 2rem;
+}
+
+.portfolio-caption{
+    font-weight: bold;
+    padding-bottom: 2rem;
+}
+
+.portfolio-caption p{
+    text-align: center;
+    text-decoration: underline;
+}
+
+.portfolio img{
+    width: 30%;
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 2rem;
+    height: auto;
+}
+
+.portfolio img:hover{
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: 0.5s ease;
+}
+
+/* INSPIRATIONAL HEADER */
+.inspirational-header{
+    background-color: #363a3c;
+    padding: 2rem;
+}
+
+/* FOOTER SECTION */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Logo styles */
+.footer-logo {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.footer-logo img {
+    width: 40px; /* Adjust the size as needed */
+    height: auto;
+}
+
+/* Text styles */
+.footer-text {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/* MEDIA QUERY */
+
+@media screen and (min-width: 920px){
+    .portfolio{
+        display: flex;
+    }
+}
+
+@media screen and(min-width: 1400px){
+    body{
+        max-width: 2000px;
+    }
+}

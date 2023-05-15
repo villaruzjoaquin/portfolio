@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Portfolio Website</title>
+  <link rel="SHORTCUT ICON" href="img/desktop.png" type="image/x-icon">
+  
+  <meta name="author" content="">
+  <meta name="description" content="">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+Mono:wght@200&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/modern-reset.css">
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+  
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">Ken & Co.</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="parallax">
+            <div class="parallax-inner">
+              <div class="parallax-content">
+                <h1>Ken & Co.</h1>
+                <p>This is a portfolio website showcasing my talents as an upcoming web design/developer.</p>
+              </div>
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="about-myself">
+                <h2>About Myself</h2>
+                <p>Allow me to introduce myself. My name is Joaquin Villaruz, a 23-year-old student currently pursuing my studies at NAIT (Northern Alberta Institute of Technology). As a dedicated learner, 
+                    I am constantly seeking knowledge and striving for excellence in my academic endeavors. 
+                </p>     
+            </div>   
+
+            <div class="explore">
+                <h2>Explore my skills</h2>
+            </div>  
+            
+            <div class="portfolio">          
+                
+                <div>
+                    <a href="https://www.w3schools.com/html/html_intro.asp" target="_blank">
+                        <img src="img/html-5.png" alt="html">
+                    </a>  
+                    <div class="portfolio-caption">
+                        <p>HTML5</p>  
+                    </div>           
+                </div>
+                
+                <div>
+                    <a href="https://www.w3schools.com/Css/css_intro.asp" target=_blank>
+                        <img src="img/css-3.png" alt="css">
+                    </a> 
+                    <div class="portfolio-caption">
+                        <p>CSS3</p>  
+                    </div>   
+                </div>
+                
+                <div>
+                    <a href="https://www.w3schools.com/js/js_intro.asp" target=_blank>
+                        <img src="img/js.png" alt="js">
+                    </a> 
+                    <div class="portfolio-caption">
+                        <p>JavaScript</p>  
+                    </div>    
+                </div>
+                
+                <div>
+                    <a href="https://www.w3schools.com/PHP/php_intro.asp" target=_blank>
+                        <img src="img/php.png" alt="php">
+                    </a> 
+                    <div class="portfolio-caption">
+                        <p>PHP</p>  
+                    </div>   
+                </div>    
+                
+                <div>
+                    <a href="https://getbootstrap.com/docs/4.0/getting-started/introduction/" target=_blank>
+                        <img src="img/bootstrap.png" alt="bootstrap">
+                    </a> 
+                    <div class="portfolio-caption">
+                        <p>Bootstrap5</p>  
+                    </div>   
+                </div> 
+            </div>
+        </div>
+
+        <div class="inspirational-header">
+            <h2>Project Image Carousel</h2>
+            <p>Take a look at my diverse range of web projects displayed in this image carousel. 
+                Each project represents my passion for creating engaging online experiences. 
+                Scroll through and explore the stunning visuals, intuitive user interfaces, and seamless functionality that define my work. 
+                Get ready to be inspired by the artistry and innovation behind these captivating web designs!
+            </p>
+        </div>
+
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ul class="carousel-indicators">
+              <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+              <li data-target="#myCarousel" data-slide-to="1"></li>
+              <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ul>
+        
+            <!-- Slides -->
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/image1.webp" alt="Image 1" class="d-block w-100">
+              </div>
+              <div class="carousel-item">
+                <img src="img/image2.webp" alt="Image 2" class="d-block w-100">
+              </div>
+              <div class="carousel-item">
+                <img src="img/image3.webp" alt="Image 3" class="d-block w-100">
+              </div>
+            </div>
+        
+            <!-- Controls -->
+            <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#myCarousel" data-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </a>
+          </div>
+    </main>
+    <footer class="footer">
+        <div class="footer-logo">
+          <img src="img/KC-Logo.png" alt="Your Logo">
+        </div>
+        <div class="footer-text">
+          &copy; 2023 Ken & Co. All rights reserved.
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
